@@ -121,28 +121,8 @@ El .gitignore es la parte mas importante dentro de cualquier repositorio ya que 
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-**Paso 1: Inicializacion de GitFlow**
-
-Se utilizaron comandos como git flow init para la inicializacion del mismo haciendo una configuracion base para su correcto funcionamiento.
-
-![Uso GitFlow](img/init-gitflow.png)
-
-**Paso 2: Creacion de la rama de hotfix**
-
-Seguido de ello se realiza la creacion de la rama hotfix/ingresar-encabezado realizado desde la rama develop.
-
-![Git hotfix](img/creacion-hotfix-ingresar-encabezado.png)
-
-**Paso 3: commid del cambio y finalizacion de hotfix**
-
-Despues se hizo el cambio correspondiente y se hizo el commid del README.md, ademas de finalizar el flujo de trabajo de Git Flow para que se realise el merge correspondiente en deveop y main y la creaciond e la tag que corresponde al commit.
-
-![Hotfix Finish](img/fin-hotfix.png)
 
 
-**Reflexion del uso de GitFlow**
-
-Git flow ayuda a agilizar el proceso de registro de cambios al simplificar los pasos que se seguiria normal mente en git como serian los merge a las ramas respectivas la creacion de la tag en cada uno de los commits requeridos y la posterior eliminacion de la rama al cumplir su funcion de resolucion o implementacion de alguna funcion, por ello es una de las principales herramientas que todo programador debe dominar para la agilizacion del trabajo.
 
 ---
 
@@ -175,6 +155,23 @@ Git flow ayuda a agilizar el proceso de registro de cambios al simplificar los p
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+
+En resumen para poder crear un issue desde el fork se necesita habilitar primero la opcion de crear issues en setting.
+
+![Issue Active](img/activar-issues.png)
+
+Una vez activado se debe ir al apartado de issues y crear la issue que se necesite en este caso mi issue esta con el enlace: https://github.com/santiagojara/EVALUACION_1P/issues/4
+
+![Creacion issue](img/creacion-issue.png)
+
+![Enlace issue](img/enlace-issue.png)
+
+Al momento de crear el pull request se debe seleccionar la rama de donde va ir y a donde va a llegar por ende se va a mostrar el proceos de creacion del pull request indicando los ultimos cambios. 
+
+![Creacion Pull](img/creacion-pull-request.png)
+
+https://github.com/ErickGuerron/EVALUACION_1P-ErickGuerron/pull/2
+
 
 ---
 
@@ -235,3 +232,13 @@ Git flow ayuda a agilizar el proceso de registro de cambios al simplificar los p
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+
+Paso 1:
+Se elimino los archivos.txt 
+
+Paso 2: 
+Se realizo el mege
+
+Versionamiento
+El versionamiento semantico consiste en que el primer nuemro conlleva a major cambios significativos y que no son compatibles con versioen santeriores, el minor es el numero central y son cambos pequenios  y el ultimo quees el path son soluciones de erores
+
